@@ -11,7 +11,7 @@ namespace DemoGraphQL.Context
     {
         public DemoAppContext(DbContextOptions options) : base(options)
         {
-
+          // https://code-maze.com/graphql-aspnetcore-basics/
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
